@@ -72,6 +72,43 @@ a{
     height: 10%;
 }
 .buy{
-    width: 50%;
+    width: 80%;
     height:50%;
 }
+.btn1{
+    margin-top: 5px;
+    background: #FFBC51;
+    width: 100px;
+    line-height: 20px;
+    margin-left: 7px;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin-left: 100px;
+}
+p{
+    padding:5px;
+}
+p input{
+    width: 250px;
+    line-height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.lable{
+    text-align: right;
+    width: 150px;
+    float: left;
+    padding-left: 8px;
+    padding-right: 2px;
+}
+
+/*  */
+#log{
+    text-align: center;
+     font-style: italic;
+     color: red;
+     line-height: 20px;
+}
+
+
+
