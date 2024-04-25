@@ -38,7 +38,9 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             // Nếu có đủ thông tin, hiển thị thông báo đăng nhập thành công
             alert("Đăng nhập thành công!");
+            window.location.href = "index.html";
         }
+
     });
     
     //click nút Đăng ký

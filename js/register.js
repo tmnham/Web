@@ -71,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function() {
         } else {
             // Nếu đủ điều kiện, chuyển hướng trang sang trang đăng ký
             alert("Đăng ký thành công!");
-            window.location.href = "login.html";
+            window.location.href = "index.html";
         }
     });
     // Hàm kiểm tra định dạng email

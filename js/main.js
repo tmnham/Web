@@ -1,4 +1,25 @@
+//Đăng nhập và đăng ký tài khoản 
+document.addEventListener("DOMContentLoaded", function(){
+    //đăng nhập
+    var loginButton = document.querySelector(".btn");
+    //đăng ký
+    var registerButton = document.querySelector(".btn-active");
 
+    //click nút Đăng nhập
+    loginButton.addEventListener("click", function(event) {
+        // Ngăn chặn mặc định 
+        event.preventDefault();
+        // Chuyển hướng trang sang "register.html"
+        window.location.href = "login.html";
+    })
+    //click nút Đăng ký
+    registerButton.addEventListener("click", function(event) {
+        // Ngăn chặn mặc định 
+        event.preventDefault();
+        // Chuyển hướng trang sang "register.html"
+        window.location.href = "register.html";
+    })
+});
 //hàm tính hóa đơn
 function Kq() {
     var a = document.getElementById("sl").value;
