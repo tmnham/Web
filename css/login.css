@@ -1,0 +1,81 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/background.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container{
+    width:  560px;
+    min-height: 220px;
+    padding: 20px;
+    border-radius:20px ;
+    border: 2px solid #929896;
+    position: relative;
+}
+.container::after{
+    content: "FORM ĐĂNG NHẬP";
+    position: absolute;
+    top: -7px;
+    left: 30px;
+    color: #0D9667;
+    font-weight: bold;
+    background-color: #939FC4;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 20px; /*tang kich thuoc chu*/
+    border-radius: 5px;
+    border: 2px solid #929896;
+    
+}
+input[type="text"],input[type="password"]{
+    width:90%;
+    padding: 10px ;
+    margin-top: 10px;
+    border-radius: 20px;
+    border: 2px solid #C5B5B5;
+    font-size: 17px;
+    margin-left: 25px;
+}
+/* hủy đổi màu ở các ô input */
+input[type="text"]:focus,
+input[type="password"]:focus {
+    border-color: #C5B5B5; /* Màu viền khi ô input được focus */
+    outline: none; /* Loại bỏ đường viền (outline) mặc định */
+}
+/* icon */
+.user i{
+    font-size:30px;
+    position: absolute;
+    right: 12%;
+    top: 17%;
+}
+.pass i{
+    font-size:30px;
+    position: absolute;
+    right: 12%;
+    top: 90px;
+}
+/* kết thúc icon */
+.button {
+    display: flex; /* Hiển thị các phần tử con theo chiều ngang */
+    justify-content: center; /* Căn giữa các phần tử con */
+    margin-top: 10px;
+    
+}
+.btn-dn, .btn-dk {
+    
+    background-color: #00FFFF;
+    padding: 10px 30px; /* Kích thước ô */
+    border-radius: 10px; /* Viền tròn */
+    margin-right: 5px; /* Cách nhau */
+    border: 1px solid ;
+}
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>form đăng ký</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='/css/register.css'>
+    <script src='/js/register.js'></script>
+</head>
+<body>
+    <div class="container">
+        <form action="form-register">
+            <div class="temp">
+                <label for="username">Tên đăng nhập</label>
+                <input type="text" name="username" id="username">
+            </div>
+            <div class="temp">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email">
+            </div>
+
+            <div class="temp">
+                <label for="pass1">Mật khẩu</label>
+                <input type="password" name="pass1" id="pass1">
+            </div>
+            
+            <div class="temp">
+                <label for="pass2">Nhập lại mật khẩu</label>
+                <input type="password" name="pass2" id="pass2">
+            </div>
+            
+            <div class="button">
+                <input type="submit" class="btn-dk" value="Đăng ký" >
+                <input type="reset" class="btn-reset" value="Reset" >
+            </div>
+        </form>
+    </div>
+</body>
+</html>

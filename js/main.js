@@ -1,4 +1,5 @@
-//hàm tính tổng
+
+//hàm tính hóa đơn
 function Kq() {
     var a = document.getElementById("sl").value;
     var b, c;
