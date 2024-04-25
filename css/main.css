@@ -10,7 +10,7 @@ a{
 }
 /* background */
 .container{
-    background-image: url(images/background.jpg);
+    background-image: url(/images/background.jpg);
     height: 100vh;
     /* kich thuoc mang hinh 100 */
     background-size: 100% 100%;
