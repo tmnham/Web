@@ -57,3 +57,21 @@ a{
     border-radius: 15px;
 }
 /* San Pham */
+.product {
+    align-items: center;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    text-align: center;
+    color: yellow;
+}
+
+.product img {
+    width: 50%;
+    height: 10%;
+}
+.buy{
+    width: 50%;
+    height:50%;
+}

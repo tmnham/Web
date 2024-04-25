@@ -31,6 +31,44 @@
         </div>
         <!-- head -->
         <!-- San pham -->
+        <section class="product">
+            <div class="sanpham">
+                <img src="/images/cat.jpg" alt="anh">
+                <div class="body">
+                    <div class="name">Golden</div>
+                    <div class="price">100$</div>
+                </div>
+            </div>
+            <div class="buy">
+                <h2>Đặt hàng</h2>
+                <form >
+                    <p>
+                        <span class="lable">Số lượng:</span>
+                        <input type="text" class="value" id="sl">
+                    </p>
+                    <p>
+                        <span class="lable">VAT:</span>
+                        <input type="text" class="value" id="vat">
+                    </p>
+                    <p>
+                        <span class="lable">Phí vận chuyển:</span>
+                        <input type="text" class="value" id="ship" readonly>
+                    </p>
+                    <p>
+                        <span class="lable">Tổng hóa đơn:</span>
+                        <input type="text" class="value" id="Sum" readonly>
+                    </p>
+                    <button class="btn" type="button" onclick="Kq()">
+                        Kết quả
+                    </button>
+                    <button class="btn" type="button" 
+                    onclick="Reset()">
+                        Reset
+                    </button>
+                    <p id="log"></p>
+                   </form>
+            </div>
+        </section>
         <!-- San pham -->
     </div>
     
