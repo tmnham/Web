@@ -1,10 +1,3 @@
-function BUY(){
-    document.getElementById("sl").value =null; 
-    document.getElementById("vat").value =null; 
-    document.getElementById("ship").value =null; 
-    document.getElementById("Sum").value =null; 
-    document.getElementById("log").innerText ="Mua thành công!";
-}
 //hàm tính tổng
 function Kq() {
     var a = document.getElementById("sl").value;
@@ -20,8 +13,6 @@ function Kq() {
         document.getElementById("log").innerText = "Vui lòng nhập số nguyên khác 0!";
         return;
     }
-
-
 
     // Tính phí VAT
     if (a <= 1) {
@@ -48,6 +39,20 @@ function Kq() {
     document.getElementById("log").innerText = "";
 }
 
+function BUY(){
+    // Kiểm tra xem đã tính tổng hóa đơn hay chưa
+    var sumValue = document.getElementById("Sum").value;
+    if (sumValue === "") {
+        document.getElementById("log").innerText = "Vui lòng nhấn Kết quả trước khi mua!";
+        return;
+    }
+    //nếu đã tính tổng hóa đơn
+    document.getElementById("sl").value =null; 
+    document.getElementById("vat").value =null; 
+    document.getElementById("ship").value =null; 
+    document.getElementById("Sum").value =null; 
+    document.getElementById("log").innerText ="Mua thành công!";
+}
 
 
 
