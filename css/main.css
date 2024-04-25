@@ -118,7 +118,8 @@ p input{
 
 .menu li a:hover {
     color: orange; /* Đổi màu chữ khi hover */
-    text-decoration: underline; /* Thêm gạch chân khi hover */
+    /* Thêm gạch chân khi hover */
+    /* text-decoration: underline;  */
 }
 
 .menu li a.active {
