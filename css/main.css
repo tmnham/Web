@@ -110,5 +110,18 @@ p input{
      line-height: 20px;
 }
 
+/* update menu */
+.menu li a {
+    color: white;
+    text-decoration: none;
+}
 
+.menu li a:hover {
+    color: orange; /* Đổi màu chữ khi hover */
+    text-decoration: underline; /* Thêm gạch chân khi hover */
+}
 
+.menu li a.active {
+    color: orange; /* Màu chữ mặc định khi được chọn */
+    text-decoration: underline; /* Gạch chân mặc định khi được chọn */
+}
